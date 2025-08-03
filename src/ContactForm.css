@@ -1,0 +1,63 @@
+/* https://github.com/Greg01001000/cs81-module11-form
+CS 81 Module 11 Assignment 11A: React Contact Form, by GregH, 8/2/25 */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #8070ff
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+    background: #eee;
+    padding: 25px 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin: 25px;
+}
+
+.contact h2 {
+    font-size: 30px;
+}
+
+.input-box .field{
+    width: 94%;
+    height: 20px;
+    background: transparent;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 8px;
+}
+
+.input-box .field.mess {
+    height: 200px;
+    resize: none;
+}
+
+form button {
+    width: 100%;
+    height: 50px;
+    background: #8070ff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: .5s;
+}
+
+form button:hover {
+    background: #6050c0;
+}
